@@ -1,0 +1,276 @@
+repo_name: AlexcastroDev/ibge-csharp
+report_id: 8608802155d7201353aa3c4b9cb04373
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:12:25+00:00'
+requested_by: AlexcastroDev
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-11 13:28:08.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/Tests/Tests.csproj
+  detection_source: Tests/Tests.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-11 20:46:59.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/Tests/Tests.csproj
+  detection_source: Tests/Tests.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-11 20:46:59.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-16 23:28:16.000000000 Z
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
+- name: Entity Framework Core
+  description: 'Lightweight and cross-platform version of the popular Entity Framework '
+  website_url: https://docs.microsoft.com/en-us/ef/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/10254/no-img-open-source.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-14 15:46:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/.github/workflows/main_ibge.yml
+  detection_source: ".github/workflows/main_ibge.yml"
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-18 18:55:43.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-11 13:28:08.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/Tests/Tests.sln
+  detection_source: Tests/Tests.sln
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:23:02.000000000 Z
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
+- name: MSTest.TestFramework
+  description: This is MSTest V2, the evolution of Microsoft's Test Framework
+  package_url: https://www.nuget.org/MSTest.TestFramework
+  version: 2.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/Tests/Tests.csproj
+  detection_source: Tests/Tests.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-11 20:46:59.000000000 Z
+- name: Microsoft.AspNetCore.Authentication.JwtBearer
+  description: ASP.NET Core middleware that enables an application to receive an OpenID
+    Connect bearer token
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.JwtBearer
+  version: 7.0.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12968/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
+- name: Microsoft.EntityFrameworkCore
+  description: Entity Framework Core is a lightweight and extensible version of the
+    popular Entity Framework data access technology
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore
+  version: 7.0.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12852/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
+- name: Microsoft.EntityFrameworkCore.InMemory
+  description: In-memory database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.InMemory
+  version: 7.0.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13150/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
+- name: Microsoft.EntityFrameworkCore.SqlServer
+  description: Microsoft SQL Server database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.SqlServer
+  version: 7.0.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12891/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-16 23:28:16.000000000 Z
+- name: Swashbuckle.AspNetCore
+  description: Swagger tools for documenting APIs built on ASP.NET Core
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore
+  version: 6.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12981/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
+- name: System.IdentityModel.Tokens.Jwt
+  description: Includes types that provide support for creating
+  package_url: https://www.nuget.org/System.IdentityModel.Tokens.Jwt
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12920/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/AlexcastroDev/ibge-csharp/blob/main/ibge/ibge.csproj
+  detection_source: ibge/ibge.csproj
+  last_updated_by: Alex Oliveira
+  last_updated_on: 2023-10-13 02:17:04.000000000 Z
